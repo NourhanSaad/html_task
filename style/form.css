@@ -1,0 +1,235 @@
+body {
+	margin: 0;
+	top: 0;
+	padding: :none;
+	height: auto;
+}
+
+* {
+	color: #617E78;
+}
+
+/*-------------- HEADER -------*/
+header {
+	width: 100%;
+	height: 80px;
+	background-color: #333333;
+
+}
+
+heder .left {
+
+	float: left;
+}
+
+header .left ul {
+	padding-top: 2.4%;
+
+	padding-left: 1%;
+}
+
+header .left ul li {
+	display: inline;
+
+
+}
+
+header .left ul li a {
+	display: inline;
+	color: #fff;
+	text-decoration: none;
+	padding-right: 20px;
+	font-size: 18px;
+
+
+
+}
+
+header .right {
+	width: 50%;
+	float: right;
+}
+
+header .right img {
+	width: 40%;
+	float: right;
+	height: 75px;
+	margin-top: -9.9%;
+	margin-right: 2px;
+}
+
+
+/*-------------------- FORM ------------------*/
+form {
+	width: 45%;
+	border: 3px solid #E0F0E8;
+	margin: 10px auto;
+	padding: 6px 4px;
+	background-color: #F5FAF9;
+
+}
+
+select {
+	width: 40%;
+}
+
+select option {
+	color: #000000;
+}
+
+label {
+	font-size: 12px;
+	padding: 5px 2px 5px 0;
+	margin-bottom: 5px;
+
+}
+
+h3 {
+	color: #55917A;
+	padding-left: 5px;
+}
+
+form p {
+	border: 1px dashed #55917A;
+	font-family: monospace;
+	padding: 3px;
+	background-color: #E0F0E8;
+	color: #333333;
+
+}
+
+form p span {
+	color: red;
+}
+
+input,
+textarea,
+select {
+	outline: none;
+}
+
+label {
+	display: inline-block;
+	width: 180px;
+	text-align: end;
+	background-color: #E0F0E8;
+
+
+}
+
+input[type=email] {
+	width: 50%;
+}
+
+input[type=password] {
+	width: 25%;
+}
+
+label span {
+	color: red;
+}
+
+table.area td label {
+
+	padding: 30px 0;
+}
+
+div.check,
+div.buttons {
+	text-align: center;
+
+}
+
+table.code,table.area {
+	margin-left: -2px;
+
+}
+
+div.check {
+
+	color: #617E78;
+}
+
+div.check a {
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #0000EE;
+}
+
+div.buttons input {
+	color: black;
+	cursor: pointer;
+	border: 1px solid #003C74;
+	border-radius: 3px;
+	padding: 3px 10px;
+	margin: 0 10px 0 0;
+}
+
+table.code tr td {
+	width: 30px;
+}
+
+table.code tr td:nth-of-type(1) label {
+	padding: 15px 2px 15px 0;
+	margin-bottom: 0;
+}
+
+table.code tr td:nth-of-type(2) input {
+	width: 50px;
+}
+
+table.code tr td:nth-of-type(2) label {
+	width: 70px;
+	font-size: 12px;
+	text-align: left;
+	background-color: #F5FAF9;
+	margin: 0;
+	padding: none;
+}
+
+table.code tr td:nth-of-type(3) input {
+	width: 35px;
+}
+
+table.code tr td:nth-of-type(3) label {
+	width: 55px;
+	font-size: 12px;
+	text-align: left;
+	background-color: #F5FAF9;
+	margin: 0;
+	padding: none;
+
+}
+
+table.code tr td:nth-of-type(4) input {
+	width: 150px;
+}
+
+table.code tr td:nth-of-type(4) label {
+	width: 50%;
+	font-size: 12px;
+	text-align: left;
+	background-color: #F5FAF9;
+	margin: 0;
+	padding: none;
+
+}
+
+
+/*---------------- FOOTER -----------*/
+footer {
+
+	height: 30px;
+}
+
+footer h6 {
+	margin-top: 10px;
+}
+
+footer h6 center {
+	color: #19459B;
+	font-size: 18px;
+	padding-bottom: 4px;
+
+}
